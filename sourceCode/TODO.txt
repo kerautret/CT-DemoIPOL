@@ -1,0 +1,9 @@
+
+- use arch with CMAKE
+- Use better IMAGene from https://github.com/kerautret/ImaGene-forIPOL
+- remove QT image or others refs
+- tests compile with others system (and auto check with travis)
+- 
+
+
+
