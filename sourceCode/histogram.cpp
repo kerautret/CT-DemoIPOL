@@ -8,7 +8,7 @@
 
 Histogram::Histogram (unsigned int size) :
     size (size),
-    data ((unsigned int *)calloc (size, sizeof (unsigned int))),//new unsigned int[size]),
+    data (new unsigned int[size]),// BK Michal it was commented i de comment it since not compile  (unsigned int *)calloc (size, sizeof (unsigned int))),
     beginIterator (data),
     endIterator (data + size)
 {

@@ -49,7 +49,6 @@ int main (int argc, char *argv[]){
 
     bool readArgsOK = args.readArguments (argc, argv);
 
-    cerr << "tototo"<<endl;
     if (!readArgsOK){
         cerr << "Error occured while arguments reading!" << endl;
         return 1;
